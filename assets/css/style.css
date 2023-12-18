@@ -4,6 +4,10 @@ body {
     margin: 0 16%;
 }
 
+#tst {
+    color: green;
+}
+
 h2 {
     text-transform: uppercase;
     font-family: poppins;
@@ -19,7 +23,7 @@ nav {
     margin-top: -2.5rem;
 }
 
-li {
+nav li {
     list-style-type: none;
     display: inline;
     padding: 5px;
@@ -27,26 +31,66 @@ li {
 
 main {
     margin-top: 5rem;
+    display: flex;
+
 }
 
 
 
-#haut h1, #haut p {
-    flex: 1;
-    
-}
+
 
 #haut {
-    display: flex;
+    float: left;
     font-family: poppins;
 }
-/*
-#firstp {
-    margin-top: 5rem;
+
+h1,
+p {
+    margin-right: 20rem;
 }
-*/
+
+
 
 #plante {
-    width: 17rem;
+    width: 20rem;
     float: right;
+    margin-right: 5rem;
+}
+
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #3d5b41;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: poppins;
+}
+
+
+#vertical {
+    color: #3d5b41;
+    writing-mode: vertical-rl;
+    font-family: poppins;
+    margin-left: 90%;
+
+   
+}
+
+
+#vertical li {
+    list-style-type: none;
+    color: #3d5b41;
+}
+
+
+#about {
+    width: 20rem;
+    display: flex;
 }
