@@ -58,7 +58,7 @@ h1,
     margin-right: 5rem;
 }
 
-button {
+#btn1 {
     display: inline-block;
     border-radius: 4px;
     background-color: #3d5b41;
@@ -110,3 +110,24 @@ button {
     text-align: right;
 }
 
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+
+#btn {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    color: #3d5b41;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: poppins;
+    background: none; 
+}
