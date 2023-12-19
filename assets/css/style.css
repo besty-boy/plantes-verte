@@ -31,13 +31,13 @@ nav li {
 
 main {
     margin-top: 5rem;
-    display: flex;
-
 }
 
 
 
-
+.lower {
+    display: flex;
+}
 
 #haut {
     float: left;
@@ -45,14 +45,15 @@ main {
 }
 
 h1,
-p {
+#firstp {
     margin-right: 20rem;
+
 }
 
 
 
 #plante {
-    width: 20rem;
+    width: 25rem;
     float: right;
     margin-right: 5rem;
 }
@@ -76,13 +77,14 @@ button {
 
 #vertical {
     color: #3d5b41;
-    writing-mode: vertical-rl;
     font-family: poppins;
-    margin-left: 90%;
-
-   
+    margin-top: -13rem;
+    float: right;
 }
 
+#our {
+    writing-mode: vertical-rl;
+}
 
 #vertical li {
     list-style-type: none;
@@ -90,7 +92,21 @@ button {
 }
 
 
+#space {
+    padding: 5rem;
+}
+
+
 #about {
     width: 20rem;
     display: flex;
+    
 }
+
+.about {
+    margin-left: 20rem;
+    margin-top: -17rem;
+    font-family: poppins;
+    text-align: right;
+}
+
