@@ -44,16 +44,13 @@ main {
     font-family: poppins;
 }
 
-h1,
-#firstp {
-    margin-right: 20rem;
-
+.logo {
+    display: flex;
 }
 
 
-
 #plante {
-    width: 25rem;
+    width: 70%;
     float: right;
     margin-right: 5rem;
 }
@@ -78,7 +75,6 @@ h1,
 #vertical {
     color: #3d5b41;
     font-family: poppins;
-    margin-top: -13rem;
     float: right;
 }
 
@@ -100,4 +96,53 @@ h1,
 #about {
     width: 20rem;
     display: flex;
+}
+
+.intro2 {
+    display: flex;
+}
+
+
+#program {
+    float: right;
+    margin-left: 25rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0 3%;
+    }
+
+    nav {
+        margin: 0 5%;
+    }
+
+    h1,
+    #firstp {
+        margin-right: 5%;
+    }
+
+    #plante {
+        margin-right: 0;
+    }
+
+    #program {
+        margin-left: 0;
+    }
 }
